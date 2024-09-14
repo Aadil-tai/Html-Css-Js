@@ -1,0 +1,54 @@
+
+body{
+    
+    background-image: url("red-pepper.jpg");
+    /* position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: bottom; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.image-section{
+                                            
+    /* float: left; */
+}
+.text-section h4,p{
+    color: #f6f2f2;
+    line-height: 30px;
+    
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+
+
+}
+
+.image-div{
+    width: 30%; /* adjust to your desired text width */
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.text-div{
+    /* float: right; */
+
+    width: 50%; /* adjust to your desired image width */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 70px;
+    flex-shrink: 0;
+
+}
+.text-div h4{
+    color: #f6f2f2;
+    font-size: 20px;
+
+}
+.text-div h4 span{
+    text-transform: capitalize;
+    text-transform: uppercase;
+}

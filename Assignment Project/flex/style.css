@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .one {
+    flex: 2 1 100px; /* 2x growth, shrinks if needed, 100px base */
+  }
+  
+  .two {
+    flex: 1 0 150px; /* 1x growth, doesn't shrink, 150px base */
+  }
+  
+  .three {
+    flex: 1 1 200px; /* 1x growth and shrink, 200px base */
+  }
+  
